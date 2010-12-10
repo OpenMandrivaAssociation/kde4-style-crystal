@@ -1,7 +1,7 @@
 Name: kde4-style-crystal
 Summary: Crystal kwin decoration theme to KDE 4.x
 Version: 2.0.5
-Release: %mkrel 1
+Release: %mkrel 2
 Source0: http://www.kde-look.org/CONTENT/content-files/75140-crystal-%version.tar.bz2
 Patch0: crystal-fix-compile.patch
 URL: http://www.kde-look.org/content/show.php/crystal?content=75140
