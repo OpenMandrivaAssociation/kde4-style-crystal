@@ -1,7 +1,7 @@
 Name: kde4-style-crystal
 Summary: Crystal kwin decoration theme to KDE 4.x
 Version: 2.0.5
-Release: %mkrel 2
+Release: %mkrel 1
 Source0: http://www.kde-look.org/CONTENT/content-files/75140-crystal-%version.tar.bz2
 Patch0: crystal-fix-compile.patch
 URL: http://www.kde-look.org/content/show.php/crystal?content=75140
@@ -47,3 +47,24 @@ Main features:
 %{_kde_libdir}/kde4/kwin3_crystal.so
 %{_kde_libdir}/kde4/kwin_crystal_config.so
 %{_kde_appsdir}/kwin/crystal.desktop
+
+
+%changelog
+* Sun Sep 20 2009 John Balcaen <mikala@mandriva.org> 2.0.5-1mdv2010.0
++ Revision: 445072
+- Update to 2.0.5
+- Add a patch to fix compilation on 2.0.5
+
+* Sat May 02 2009 Funda Wang <fundawang@mandriva.org> 2.0.3-1mdv2010.0
++ Revision: 370788
+- 2.0.3
+
+* Fri Jul 25 2008 Funda Wang <fundawang@mandriva.org> 2.0.1-2mdv2009.0
++ Revision: 249516
+- rename spec file
+- Rename to kde4-style-foobar, like other packages
+
+* Sat Jul 19 2008 Funda Wang <fundawang@mandriva.org> 2.0.1-1mdv2009.0
++ Revision: 238669
+- import kde4-kwin-style-crystal
+
