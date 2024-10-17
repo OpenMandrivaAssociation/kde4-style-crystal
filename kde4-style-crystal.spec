@@ -4,7 +4,7 @@ Version: 2.0.5
 Release: 2
 Source0: http://www.kde-look.org/CONTENT/content-files/75140-crystal-%version.tar.bz2
 Patch0: crystal-fix-compile.patch
-URL: http://www.kde-look.org/content/show.php/crystal?content=75140
+URL: https://www.kde-look.org/content/show.php/crystal?content=75140
 Group: Graphical desktop/KDE
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License: GPLv2+
