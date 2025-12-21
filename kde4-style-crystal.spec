@@ -8,6 +8,7 @@ URL: https://www.kde-look.org/content/show.php/crystal?content=75140
 Group: Graphical desktop/KDE
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License: GPLv2+
+BuildRequires:	make
 BuildRequires: kdebase4-workspace-devel
 Obsoletes: kde4-kwin-style-crystal < %version-%release
 
